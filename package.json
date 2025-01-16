@@ -1,42 +1,26 @@
 {
-  "name": "checkout-counter",
-  "version": "1.0.0",
-  "main": "src/index.js",
+  "name": "react-components-practice-completed",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/qichun-dai/checkout_counter.git"
-  },
-  "author": "Qichun Dai",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/qichun-dai/checkout_counter/issues"
-  },
-  "homepage": "https://github.com/qichun-dai/checkout_counter#readme",
-  "description": "",
   "dependencies": {
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-scripts": "^5.0.1"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "typescript": "3.3.3"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "vite": "^5.1.4"
   }
 }
