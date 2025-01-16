@@ -1,5 +1,4 @@
 import React from "react";
-import Heading from "./CheckoutCounter";
 import CheckoutCounter from "./CheckoutCounter";
 
 function App() {
@@ -12,8 +11,8 @@ function App() {
   return (
     <div className="main">
       <h1>Checkout Counter</h1>
-      {products.map((product) => (
-        
+      {products.map((product) => (<>
+        {product.name} - ${product.price.toFixed(2)} per item
         <CheckoutCounter
           key={product.id}
           defaultCount={product.quantity}
@@ -23,7 +22,7 @@ function App() {
             )
           }
         />
-      ))}
+      </>))}
     </div>
   );
 }
