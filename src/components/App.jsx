@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div className="main">
-      <h1>Checkout Counter</h1>
+      <h1>Shopping Cart</h1>
       {products.map((product) => (<>
         {product.name} - ${product.price.toFixed(2)} per item
         <CheckoutCounter
