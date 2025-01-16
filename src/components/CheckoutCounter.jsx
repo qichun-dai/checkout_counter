@@ -16,7 +16,7 @@ function CheckoutCounter({ defaultCount = 1, onDeleteClick = () => {} }) {
   return (
     <div className="checkout-counter">
       <div className="counter">
-        <button onClick={() => setCount((count) => numCheck(count - 1))}>
+        <button className="sign" onClick={() => setCount((count) => numCheck(count - 1))}>
           -
         </button>
         <input
@@ -26,12 +26,12 @@ function CheckoutCounter({ defaultCount = 1, onDeleteClick = () => {} }) {
           value={count}
           onChange={(e) => setCount(numCheck(e.target.value))}
         />
-        <button onClick={() => setCount((count) => numCheck(count + 1))}>
+        <button className="sign" onClick={() => setCount((count) => numCheck(count + 1))}>
           +
         </button>
       </div>
       <button className="blue" onClick={() => setCount(defaultCount)}>Default value</button>
-      <button className="blue" onClick={() => onDeleteClick()}>
+      <button className="blue delete" onClick={() => onDeleteClick()}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"

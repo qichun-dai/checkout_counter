@@ -13,6 +13,7 @@ function App() {
     <div className="main">
       <h1>Checkout Counter</h1>
       {products.map((product) => (
+        
         <CheckoutCounter
           key={product.id}
           defaultCount={product.quantity}

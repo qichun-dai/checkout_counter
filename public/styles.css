@@ -22,12 +22,14 @@ body, html {
 .checkout-counter{
   display: flex;
   flex-direction: row;
-  margin:0.5rem 0;
+  margin:0.8rem 0;
+  align-items: center;
 }
 
 .checkout-counter button{
   background: none;
   border: none;
+  cursor: pointer;
 }
 
 .checkout-counter input{
@@ -48,10 +50,24 @@ body, html {
 }
 
 .checkout-counter .counter{
-  border: 1px solid #000;
+  border: 1px solid #999;
   border-radius: 0.25rem;
+  margin-right: 0.25rem;
 }
 
 .checkout-counter .blue{
   color:darkblue;
+}
+
+.checkout-counter .sign{
+  font-weight: semibold;
+  font-size: 1.2rem;
+}
+
+.checkout-counter button:hover{
+  color: orange;
+}
+
+.checkout-counter .delete{
+  display: flex;
 }
