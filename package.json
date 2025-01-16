@@ -1,0 +1,42 @@
+{
+  "name": "checkout-counter",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qichun-dai/checkout_counter.git"
+  },
+  "author": "Qichun Dai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qichun-dai/checkout_counter/issues"
+  },
+  "homepage": "https://github.com/qichun-dai/checkout_counter#readme",
+  "description": "",
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
