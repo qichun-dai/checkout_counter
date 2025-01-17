@@ -16,14 +16,21 @@ body, html {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  background-color: blanchedalmond;
+  background-color: #FBFBFB;
 }
 
 .checkout-counter{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin:0.8rem 0;
-  align-items: center;
+  align-items: left;
+}
+
+
+
+.checkout-counter .flex-row{
+  display: flex;
+  flex-direction: row;
 }
 
 .checkout-counter button{
@@ -70,4 +77,5 @@ body, html {
 
 .checkout-counter .delete{
   display: flex;
+  align-items: center;
 }
