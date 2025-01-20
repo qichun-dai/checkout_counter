@@ -67,7 +67,7 @@ body, html {
 }
 
 .checkout-counter .sign{
-  font-weight: semibold;
+  font-weight: 600;
   font-size: 1.2rem;
   color: #2A3335;
 }
